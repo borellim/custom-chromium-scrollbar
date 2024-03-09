@@ -1,0 +1,14 @@
+ 
+{
+    "name": "Marco's custom scrollbar",
+    "content_scripts": [
+        {
+          "matches": ["*://*/*"],
+          "css": ["custom.css"]
+        }
+    ],
+    "version": "1.0.0",
+    "description": "User StyleSheet replacement",
+    "manifest_version": 2
+
+}
